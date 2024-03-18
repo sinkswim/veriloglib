@@ -7,7 +7,7 @@ module clock_generator
 	initial clk = 1'b0;
 	
 	always
-		#(period/2) clk = ~clk;
+		#(period/2) clk <= ~clk;
 
 	initial #100 $finish;
 
