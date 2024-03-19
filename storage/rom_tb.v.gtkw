@@ -1,0 +1,31 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Tue Mar 19 08:12:13 2024
+[*]
+[dumpfile] "rom_tb.vcd"
+[dumpfile_mtime] "Tue Mar 19 08:12:03 2024"
+[dumpfile_size] 1313
+[savefile] "rom_tb.v.gtkw"
+[timestart] 0
+[size] 1288 600
+[pos] -1 -1
+*-4.434789 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[treeopen] rom_tb.
+[sst_width] 253
+[signals_width] 136
+[sst_expanded] 1
+[sst_vpaned_height] 159
+@420
+rom_tb.CLK_PERIOD
+rom_tb.DEPTH
+rom_tb.WIDTH
+@28
+rom_tb.addr[2:0]
+rom_tb.clk
+@22
+rom_tb.data_out[7:0]
+@28
+rom_tb.en
+rom_tb.rst_n
+[pattern_trace] 1
+[pattern_trace] 0
