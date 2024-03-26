@@ -32,7 +32,7 @@ endgenerate
 generate
 	if (PIPELINED == 1)
 		begin: pipelined_multiplier
-			if (GENERATE_PROCEDURALS == 0) 
+			if (GENERATE_PROCEDURALS == 0)
 				mult2i1o_pipelined #(.WIDTH(WIDTH))
 					uut_pipelined (.clk(clk), .clr_n(clr_n), .a(a), .b(b), .result(result));
 			else

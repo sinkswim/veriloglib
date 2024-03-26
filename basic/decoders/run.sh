@@ -9,7 +9,7 @@ if [ $# -ne 1 ]; then
 fi
 
 # Extract the filenames from the argument
-verilog_file="$1"
+verilog_file="$1.v"
 gtkw_file="$1.gtkw"
 
 # Compile the Verilog code using iverilog
@@ -19,7 +19,7 @@ iverilog -g2012 "$verilog_file"
 vvp a.out
 
 # Visualize the simulation results using gtkwave using savefile if present (.gtkw)
-gtkwave --save "$gtkw_file"  "${verilog_file%.sv}.vcd"
+gtkwave --save "$gtkw_file"  "$1.vcd"
 
 # Clean up
 rm a.out

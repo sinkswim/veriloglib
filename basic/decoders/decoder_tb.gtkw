@@ -1,0 +1,23 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Thu Mar 21 04:10:43 2024
+[*]
+[dumpfile] "decoder_tb.vcd"
+[dumpfile_mtime] "Thu Mar 21 04:09:41 2024"
+[dumpfile_size] 556
+[savefile] "decoder_tb.gtkw"
+[timestart] 0
+[size] 1288 600
+[pos] -1 -1
+*-6.424036 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[treeopen] decoder_tb.
+[sst_width] 253
+[signals_width] 79
+[sst_expanded] 1
+[sst_vpaned_height] 159
+@25
+decoder_tb.x[1:0]
+@22
+decoder_tb.y[3:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -6,6 +6,6 @@ input sel,
 output c
 );
 
-assign c = (sel)? a : b;
+assign c = sel ? a : b;
 
 endmodule
