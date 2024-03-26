@@ -27,21 +27,5 @@ module gate_primitives
 
     // Multiplex requested output
     assign o = o_int[ctrl];
-
-    // always @*
-    //     case (ctrl)
-    //         4'd0: o = o_int[0];
-    //         4'd1: o = o_int[0];
-    //         4'd2: o = o_int[0];
-    //         4'd3: o = o_int[0];
-    //         4'd4: o = o_int[0];
-    //         4'd5: o = o_int[0];
-    //         4'd6: o = o_int[0];
-    //         4'd7: o = o_int[0];
-    //         4'd8: o = o_int[0];
-    //         4'd9: o = o_int[0];
-    //         4'd10: o = o_int[0];
-    //         4'd11: o = o_int[0];
-    //         default: o = 1'bz;
-    //     endcase
+  
 endmodule
