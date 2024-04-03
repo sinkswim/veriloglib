@@ -29,4 +29,5 @@ module fsm3cycles_high_tb;
         $display("Test complete");
         $finish;
     end
-endmodule;
+    
+endmodule

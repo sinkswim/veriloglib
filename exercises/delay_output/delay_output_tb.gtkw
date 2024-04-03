@@ -1,0 +1,22 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Fri Mar 29 03:38:53 2024
+[*]
+[dumpfile] "delay_output_tb.vcd"
+[dumpfile_mtime] "Fri Mar 29 03:38:36 2024"
+[dumpfile_size] 1726
+[savefile] "delay_output_tb.gtkw"
+[timestart] 0
+[size] 1288 600
+[pos] -1 -1
+*-5.497677 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[sst_width] 253
+[signals_width] 87
+[sst_expanded] 1
+[sst_vpaned_height] 159
+@28
+delay_output_tb.clk
+delay_output_tb.datain
+delay_output_tb.dataout
+[pattern_trace] 1
+[pattern_trace] 0

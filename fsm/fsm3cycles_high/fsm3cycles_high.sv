@@ -1,11 +1,13 @@
 module fsm3cycles_high(clk, rst, x, y);
     input clk, rst;
     input x;
-    output y;
+    output reg y;
 
-    typedef enum {S0, S1, S2, S3} state_t;
-    state_t current_state, next_state;
-    reg y;
+    parameter S0 = 2'b00;
+    parameter S1 = 2'b01;
+    parameter S2 = 2'b10;
+    parameter S3 = 2'b11;
+    reg [1:0] current_state, next_state;
 
     always @(posedge clk)
         if(rst == 1'b1) begin
@@ -40,4 +42,4 @@ module fsm3cycles_high(clk, rst, x, y);
             default: y <= 1'b0;
         endcase
 
-endmodule;
+endmodule
