@@ -24,22 +24,20 @@ module combination_lock_fsm
     parameter S3 = 3'b100;
     parameter S4 = 3'b101;
 
-    reg [2:0] current_state;
-    reg [2:0] next_state;
+    (* fsm_encoding = "none" *) reg [2:0] current_state;
+    (* fsm_encoding = "none" *) reg [2:0] next_state;
 
     // Current State Register
     always @(posedge clk)
-    begin
-        if(rst)
-            current_state <= IDLE;
-        else
             current_state <= next_state;
-    end
 
     // Next State Logic
-    always @(current_state, zero, one)
+    always @(*)
     begin
-        case(current_state)
+        next_state <= IDLE;
+        if(rst)
+            next_state <= IDLE;
+        else case(current_state)
             IDLE: begin
                 if(zero) next_state <= S0;
                 else next_state <= IDLE;
@@ -57,7 +55,7 @@ module combination_lock_fsm
                 else if(zero) next_state <= S0;
             end
             S3: begin
-                if(one) next_state <= S0;
+                if(one) next_state <= S4;
                 else if(zero) next_state <= S2;
             end
             S4: begin
@@ -70,16 +68,6 @@ module combination_lock_fsm
 
     // Output Logic
     always @(current_state)
-    begin
-        case(current_state)
-            IDLE: unlock <= 0;
-            S0: unlock <= 0;
-            S1: unlock <= 0;
-            S2: unlock <= 0;
-            S3: unlock <= 0;
-            S4: unlock <= 1;
-            default: unlock <= 0;
-        endcase
-    end
+        unlock <= (current_state == S4) ? 1 : 0;
 
 endmodule
