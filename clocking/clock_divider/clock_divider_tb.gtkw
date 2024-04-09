@@ -1,0 +1,58 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Tue Apr  9 23:54:37 2024
+[*]
+[dumpfile] "clock_divider_tb.vcd"
+[dumpfile_mtime] "Tue Apr  9 23:54:17 2024"
+[dumpfile_size] 4790
+[savefile] "clock_divider_tb.gtkw"
+[timestart] 0
+[size] 1568 597
+[pos] -1 -1
+*-18.996517 390000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] clock_divider_tb.
+[sst_width] 253
+[signals_width] 144
+[sst_expanded] 1
+[sst_vpaned_height] 158
+@420
+clock_divider_tb.CLK_PERIOD
+clock_divider_tb.COUNTER_WIDTH
+@22
+clock_divider_tb.prescaler[7:0]
+@28
+clock_divider_tb.rst_n
+@22
+clock_divider_tb.clkdiv_uut.counter[7:0]
+@29
+clock_divider_tb.sys_clk
+@28
+clock_divider_tb.div_clk
+[pattern_trace] 1
+[pattern_trace] 0
