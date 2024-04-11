@@ -1,0 +1,24 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Wed Apr 10 22:46:44 2024
+[*]
+[dumpfile] "full_adder_tb.vcd"
+[dumpfile_mtime] "Wed Apr 10 22:46:03 2024"
+[dumpfile_size] 582
+[savefile] "full_adder_tb.gtkw"
+[timestart] 0
+[size] 1296 600
+[pos] -1 -1
+*-1.929611 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[sst_width] 253
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 159
+@28
+full_adder_tb.a
+full_adder_tb.b
+full_adder_tb.cin
+full_adder_tb.cout
+full_adder_tb.sum
+[pattern_trace] 1
+[pattern_trace] 0
