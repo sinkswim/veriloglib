@@ -1,4 +1,4 @@
-`include "dff_srst.v"
+`include "../flipflops/dff_srst.v"
 
 module dff_srst_register
 #(parameter WIDTH = 8)

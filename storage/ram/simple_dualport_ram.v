@@ -1,7 +1,7 @@
 module simple_dualport_ram
 #(
-    parameter WIDTH = 8,
-    parameter DEPTH = 2**4
+    parameter WIDTH = 4,
+    parameter DEPTH = 2**3
 )
 (
     input clk,
