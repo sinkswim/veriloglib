@@ -4,3 +4,6 @@ dvt_build.log
 *.vcd
 a.out
 chat.rapidgpt
+__pycache__/
+sumbuild/
+results.xml
